@@ -1,0 +1,50 @@
+manage off conky
+#set border off
+set border_focus #a3a373
+set border_unfocus Dim gray
+set frame_split_focus new
+set border_width 1
+set focus_follow_mouse 1
+bind off Mod4+t
+bind on Mod4+t exec urxvt
+bind off Mod4+z
+bind on Mod4+z exec chromium
+bind off Mod4+b
+bind on Mod4+b exec geany
+bind on Mod4+1 use default
+bind on Mod4+2 use web
+bind on Mod4+3 use misc
+bind on Mod4+4 use shit
+
+#set window_open_frame empty
+set window_open_focus 1
+set group_close_empty 0
+
+pad 0 0 0 14
+#exec conky
+#exec urxvtd
+#exec xcompmgr -aScfF
+#exec conky | dzen2 -x 0 -y 1031
+
+vsplit 55%
+hsplit 60%
+exec chromium
+exec urxvt
+exec urxvt
+
+add web
+use web
+pad 0 0 0 14
+#exec chromium
+exec feh --bg-fill ~/mountains.jpg
+#remove web
+
+add misc
+use misc
+pad 0 0 0 14
+#exec gimp
+hsplit 12%
+hsplit 76%
+
+add shit
+pad 0 0 0 14
