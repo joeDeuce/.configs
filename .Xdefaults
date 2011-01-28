@@ -6,10 +6,15 @@ URxvt*fading:	 	0
 URxvt.urlLauncher:     	chromium
 !URxvt.matcher.button:  2 
 URxvt*termName: 	rxvt
-!URxvt.font: 		xft:Dina:size=12
-!URxvt.font: 		xft:Anka/Coder Narrow:size=12
-!URxvt.font: 		xft:terminus:size=11
-URxvt.font: 		xft:gohufont:size=10
+URxvt.font: 		xft:gohufont:size=8
+!URxvt.font: 		xft:anonymouspro:size=10
+!URxvt.font: 		xft:anonymouspro:size=10
+!URxvt.font: 		xft:anonymouspro:size=10
+!URxvt.font: 		xft:anonymouspro:size=10
+!URxvt.font: 		xft:anonymouspro:size=10
+!URxvt.font: 		xft:monospace:size=8
+!URxvt.font: 		xft:terminus:size=8
+!URxvt.font: 		xft:gohufont:size=10
 URxvt*scrollBar:	false
 URxvt*scrollstyle:	rxvt
 URxvt*title:		Terminal
